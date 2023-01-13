@@ -12,7 +12,7 @@ dependencies {
 	implementation gradleApi()
 	//TODO: REPLACE WITH CORRECT VERSION NUMBER 
 	//      AND SEE IF WE NEED THE EXCLUDE.
-    implementation('org.hidetake:groovy-ssh:3.0.0') {
+    implementation('com.github.alexcase52:groovy-ssh:3.0.0') {
         exclude module: 'groovy-all'
     }
 	testImplementation 'junit:junit:4.12'
