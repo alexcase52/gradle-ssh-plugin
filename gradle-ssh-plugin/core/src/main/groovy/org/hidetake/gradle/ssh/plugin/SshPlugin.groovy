@@ -25,6 +25,7 @@ class SshPlugin implements Plugin<Project> {
 
         project.ssh.metaClass.mixin(VersionExtension)
 
+
         // TODO
         if (project.gradle.gradleVersion =~ /^1\./) {
             log.warn('Gradle 1.x support will be removed in the future release. ' +
